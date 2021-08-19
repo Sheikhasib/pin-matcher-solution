@@ -5,10 +5,9 @@ function getPin(){
         return pin;
     }
     else{
-        console.log('Got 3 digit and calling again', pin);
+        // console.log('Got 3 digit and calling again', pin);
         return getPin();
     }
-
 }
 
 function generatePin(){
